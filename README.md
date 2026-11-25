@@ -4,12 +4,25 @@ Repairs DICOM files whose last **Sequence Delimitation Item** is missing (a Siem
 DCMTK reports *"Sequence Delimitation Item missing"*) and imports the study into the database of
 **IsiX DICOM Viewer** or **Horos**, in one step.
 
-## Install
+## Download
 
-Ready-made packages are not uploaded yet. Build from source (below): download this repository
-(*Code › Download ZIP*), unzip it, quit the viewer and double-click **Build IsiX version.command**
-(or **Build Horos version.command**). The App Store version of IsiX loads no plugins; use the
+Current version: **1.0.0**. Click the package for your viewer:
+
+| Viewer | Download | macOS | Mac |
+|---|---|---|---|
+| IsiX DICOM Viewer 6.0.3+ (GitHub build) | [**FixDICOM-IsiX-1.0.0.zip**](https://github.com/ArtemSobolev95/FixDICOM-macOS/raw/main/downloads/FixDICOM-IsiX-1.0.0.zip) | 15 or later | Apple silicon and Intel |
+| Horos 4.0.1 | [**FixDICOM-Horos-1.0.0.zip**](https://github.com/ArtemSobolev95/FixDICOM-macOS/raw/main/downloads/FixDICOM-Horos-1.0.0.zip) | 11 or later | Apple silicon and Intel |
+
+Each package works on both kinds of Mac. The App Store version of IsiX loads no plugins; use the
 [GitHub build of IsiX](https://github.com/ThalesMMS/IsiX-DICOM-Viewer-macOS/releases).
+
+### Install
+
+1. Quit the viewer.
+2. Unzip the package and double-click **Install FixDICOM.command**.
+   If macOS says the developer cannot be verified: System Settings › Privacy & Security ›
+   *Open Anyway*, then double-click it again.
+3. Open the viewer. *Plugins › Plugins Manager* should list FixDICOM as loaded.
 
 ## Use
 
