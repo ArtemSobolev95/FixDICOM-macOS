@@ -1,0 +1,7 @@
+build/
+build-horos/
+dist/
+tests/samples/
+tests/tr
+*.o
+.DS_Store
